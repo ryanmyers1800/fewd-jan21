@@ -1,0 +1,10 @@
+h1 {
+    color:crimson;
+}
+
+.pupperoni {
+    color:crimson;
+    border: 2px solid rgba(7, 8, 0, 0.884);
+    display:inline-block;
+    border-radius: 6px;
+}
