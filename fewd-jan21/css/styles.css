@@ -1,0 +1,44 @@
+/* {
+    border:2px solid red;
+}
+*/
+/* Mobile first */
+.title {
+    color:red;
+}
+
+.pupperoni {
+    border: 10px dotted black;
+    width: 80%;
+    height: auto;
+    padding: 12px;
+}
+
+body {
+    background-color:black;
+}
+
+/* tablet second */
+
+@media  screen and (min-width: 600px) {
+    body {
+        background-color: cadetblue;
+    }
+    .pupperoni {
+        width: 500px;
+        height: auto; 
+    }
+
+}
+
+/* desktop last */
+
+@media screen and (min-width: 969px) {
+    body {
+        background-color: rgb(86, 240, 227);
+    }
+    .pupperoni {
+        width: 600px;
+        height: auto;
+    }
+}
